@@ -56,7 +56,8 @@ GROQ_API_KEY="<your-api-key-here>"
 npm start
 ```
     You will see something like this
-        
+```
+      
 You can now view web-reader in the browser.
 
   Local:            http://localhost:3000
