@@ -1,0 +1,182 @@
+/* Styling for the frontend */
+
+:root {
+  --base-font-size: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: var(--base-font-size);
+}
+
+header {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: inherit;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  height: 150px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+/* Styling for the container div */
+.process-buttons {
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Center the buttons horizontally within the container */
+  align-items: center; /* Center the buttons vertically if needed */
+  gap: 10px; /* Adds space between the buttons */
+}
+
+/* Styling for the buttons */
+.process-buttons button {
+  padding: 10px 20px; /* Adds space inside the buttons */
+  font-size: 16px; /* Adjusts font size */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering */
+  background-color: #cd8430; /* Green background for the buttons */
+  color: white; /* White text color */
+  border: none; /* Removes default border */
+  border-radius: 5px; /* Adds rounded corners to the buttons */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.process-buttons button:hover {
+  background-color: #46159c; /* Darker green when hovering */
+}
+
+.process-buttons button:focus {
+  outline: none; /* Removes the default outline on focus */
+  background-color:  #46159c; /* Adds an orange outline when focused */
+}
+
+.sliders {
+
+  accent-color: green;
+}
+
+.speed-sliders {
+ 
+  accent-color: rgb(150, 12, 150) ;
+}
+
+
+
+.output {
+  margin-top: 20px;
+}
+
+.recent-links {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 175px ;
+  height: calc(100vh - 40px);
+  padding: 20px;
+  background-color: #d4d8d8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.recent-links h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.recent-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-links li {
+  margin-bottom: 10px;
+}
+
+/* Styling for the button, making the entire button clickable */
+.recent-links button {
+  display: flex; /* Use flexbox to align the contents inside the button */
+  flex-direction: column; /* Stack the label and URL vertically inside the button */
+  width: 110%;
+  padding-left: 1px;
+  background-color: #b5b9b5; /* Light grey background */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-align: left; /* Align the text to the left */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Hover state for the button */
+.recent-links button:hover {
+  background-color: #587a59; /* Darker green when hovering */
+}
+
+/* Focus state for the button */
+.recent-links button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 165, 0, 0.8); /* Orange outline on focus */
+}
+
+/* Styling for the link content (label and URL) */
+.link-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.link-label {
+  font-weight: bold; /* Bold label text */
+  font-size: 20px; /* Smaller font size for the label */
+  color: #000000; /* Black color for the label */
+}
+
+.link-url {
+  color: #070000; /* Dark color for the URL */
+  font-size: 10px; /* Slightly smaller font for the URL */
+  white-space: nowrap; /* Prevent URL from breaking into multiple lines */
+  overflow: hidden; /* Hide overflowed content */
+  text-overflow: ellipsis; /* Show ellipsis for long URLs */
+}

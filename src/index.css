@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#speed-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* For Safari */
+  appearance: none;
+  width: 20px; /* Customize thumb size */
+  height: 20px;
+  background-color: green; /* Make thumb green */
+  border-radius: 50%; /* Make thumb circular */
+  border: none;
+  cursor: pointer;
+}
+
+#speed-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+#speed-slider::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
