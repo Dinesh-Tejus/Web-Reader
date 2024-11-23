@@ -55,14 +55,14 @@ GROQ_API_KEY="<your-api-key-here>"
 ```bash
 npm start
 ```
-    You will see something like this
+You will see something like this
+
 ```
-      
 You can now view web-reader in the browser.
 
   Local:            http://localhost:3000
   On Your Network:  http://10.1.0.173:3000
-
+```
 
 7. Run the backend from root directory
 ```bash
