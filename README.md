@@ -16,6 +16,9 @@ Web Reader enables users to access any website on the internet, regardless of wh
 - **Clear and Simple Interface**: Focuses on functionality, ensuring ease of use for individuals with varying levels of vision impairment.
 
 ## Installation
+Before starting the installation for the Web-Reader, please install Node.js and python on your system
+- For Node.js follow : [Node.js Package Manager Installation Guide](https://nodejs.org/en/download/package-manager).
+- For python Follow this link : [Python Installer](https://www.python.org/downloads/).
 
 To install and use the Web Reader, follow these steps:
 
