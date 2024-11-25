@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ```
 
 5. Create an .env environment file. 
-- Navigate into the backend folder and create a .env file
+- Navigate into the backend folder and create a .env file and update the Groq API key [Get key here](https://console.groq.com/keys)
 ```bash
 GROQ_API_KEY="<your-api-key-here>"
 ```
